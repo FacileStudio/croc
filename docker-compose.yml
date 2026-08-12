@@ -1,7 +1,0 @@
-services:
-  croc:
-    build: .
-    image: croc-relay
-    restart: unless-stopped
-    ports:
-      - "9009-9013:9009-9013/tcp"
